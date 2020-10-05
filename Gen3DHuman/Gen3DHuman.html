@@ -1,0 +1,119 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Learning One-shot Face Reenactment</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="To enable realistic shape (e.g. pose and expression) transfer, existing face reenactment methods rely on a set of target faces for learning subject-specific traits. However, in real-world scenario end users often only have one target face at hand, rendering the existing methods inapplicable. In this work, we bridge this gap by proposing a novel one-shot face reenactment learning system. Our key insight is that the one-shot learner should be able to disentangle and compose appearance and shape information for effective modeling. Specifically, the target face appearance and the source face shape are first projected into latent spaces with their corresponding encoders. Then these two latent spaces are associated by learning a shared decoder which aggregates multi-level features to produce the final reenactment results. To further improve the synthesizing quality on mustache and hair regions, we additionally propose FusionNet which combines the strengths of our learned decoder and the traditional warping method. Extensive experiments show that our one-shot face reenactment system achieves superior transfer fidelity as well as identity preserving than other alternatives. More remarkably, our approach trained with only one target image per subject achieves competitive results to those using a set of target images, which demonstrates the practical merit of this work.">
+<meta name="keywords" content="one shot; deep fake; Deep Video Portraits; face reenactment; deep learning; Convolutional network; computer vision;">
+<!--<link rel="author" href="http://wywu.github.io">-->
+
+<!-- Fonts and stuff -->
+<link href="./support/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./support/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./support/iconize.css">
+<script async="" src="./support/prettify.js"></script>
+
+
+</head>
+
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+		<div class="section head">
+	<h1><font size="5">Generating Person-Scene Interactions in 3D Scenes</font></h1>
+
+	<div class="authors">
+	  <!--<a href="http://wywu.github.io">Wayne Wu</a><sup>*1</sup>&nbsp;&nbsp;-->
+		<a href="https://inf.ethz.ch/people/people-atoz/person-detail.MjQyOTY2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html">Siwei Zhang</a><sup>1</sup>
+		<a href="https://inf.ethz.ch/people/people-atoz/person-detail.MjcwNjU2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html">Yan Zhang</a><sup>1</sup>
+		<a href="https://www.is.mpg.de/person/qma">Qianli Ma</a><sup>2</sup>
+	  	<a href="https://ps.is.tuebingen.mpg.de/person/black">Michael J. Black</a><sup>2</sup>&nbsp;
+	  	<a href="https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html">Siyu Tang</a><sup>1</sup>
+	</div>
+
+	<div class="affiliations">
+	  	<sup>1</sup><a href="https://ethz.ch/en.html">ETH Zurich<br></a>
+	  	<sup>2</sup><a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems<br></a>
+	</div>
+
+	<div class="venue">International Conference on 3D Vision (<a href="http://3dv2020.dgcv.nii.ac.jp/" target="_blank">3DV</a>) 2020 </div>
+
+	<ul id="tabs">
+		<li><a href="./Gen3DHuman.html" name="#tab1">Generating Person-Scene Interactions in 3D Scenes</a></li>
+	</ul>
+	</div>
+
+
+	
+
+      
+      <center><img src="./support/index.png" border="0" width="90%"></center>
+      <div class="section abstract">
+	<h2>Abstract</h2>
+	<p>
+High fidelity digital 3D environments have been proposed in recent years; however, it remains extreme challenging to automatically equip such environment with realistic human bodies. Existing work utilizes images, depths, or semantic maps to represent the scene, and parametric human models to represent 3D bodies in the scene. While being straightforward, their generated human-scene interactions are often lack of naturalness and physical plausibility. Our key observation is that humans interact with the world through body-scene contact. To explicitly and effectively represent the physical contact between the body and the world is essential for modeling human-scene interaction. To that end, we propose a novel interaction representation, which explicitly encodes the proximity between the human body and the 3D scene around it. Specifically, given a set of basis points on a scene mesh, we leverage a conditional variational autoencoder to synthesize the distance from every basis point to its closest point on a human body. The synthesized proximal relationship between the human body and the scene can indicate which region a person tends to contact. Furthermore, based on such synthesized proximity, we can effectively obtain expressive 3D human bodies that naturally interact with the 3D scene. Our perceptual study shows that our model significantly improves the state-of-the-art method, approaching the realism of real human-scene interaction. We believe our method makes an important step towards the fully automatic synthesis of realistic 3D human bodies in 3D scenes.
+	</p>
+      </div>
+<div class="section downloads">
+	<h2>Demo</h2><center>
+		<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div></center>
+      <div class="section downloads">
+
+	<h2>Downloads</h2>
+	<center>
+	  <ul>
+        <li class="grid">
+	      <div class="griditem">
+		<a href="https://arxiv.org/pdf/2008.05570.pdf" target="_blank" class="imageLink"><img src="./support/paper.png"></a><br><a href="https://arxiv.org/pdf/2008.05570.pdf">Paper</a>
+		</div>
+	      </li>
+        <!--<li class="grid">-->
+	      <!--<div class="griditem">-->
+		<!--<a href="./support/ReenactGAN_Supplementary_Material.pdf" target="_blank" class="imageLink"><img src="./support/sup.png"></a><br><a href="./support/ReenactGAN_Supplementary_Material.pdf">Supplementary Material</a>-->
+		<!--</div>-->
+	      <!--</li>-->
+	    <li class="grid">
+	      <div class="griditem">
+		<a href="" target="_blank" class="imageLink"><img src="./support/data.png"></a><br><a href="" target="_blank">Trained Models (coming)</a>
+		</div>
+	      </li>
+
+	    <li class="grid">
+	      <div class="griditem">
+		<a href="https://github.com/sanweiliti/Generating_Person_Scene_Interactions" target="_blank" class="imageLink"><img src="./support/code.png"></a><br><a href="https://github.com/sanweiliti/Generating_Person_Scene_Interactions" target="_blank">Code</a>
+		</div>
+	      </li>
+	    </ul>
+	    </center>
+	    </div>
+	    
+
+<br>
+ <div class="section list">
+	<h2>Citation</h2>
+	
+	<div class="section bibtex">
+	  <pre>@article{zhang2020generating,
+  title={Generating Person-Scene Interactions in 3D Scenes},
+  author={Zhang, Siwei and Zhang, Yan and Ma, Qianli and Black, Michael J and Tang, Siyu},
+  journal={arXiv preprint arXiv:2008.05570},
+  year={2020}
+}
+	</pre>
+	  </div>
+      </div>
+
+     <div class="section contact">
+	<h2>Contact</h2>
+		 For questions, please contact Siwei Zhang:<br><a href="mailto:siwei.zhang@inf.ethz.ch">siwei.zhang@inf.ethz.ch</a>
+      </div>
+    </div>
+  </div>
+
+</body></html>
+
