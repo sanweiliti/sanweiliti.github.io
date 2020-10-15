@@ -1,12 +1,12 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Generating Person-Scene Interactions in 3D Scenes</title>
+<title>PLACE: Proximity Learning of Articulation and Contact in 3D Environments</title>
 
 <!-- Meta tags for search engines to crawl -->
 <meta name="robots" content="index,follow">
-<meta name="description" content="High fidelity digital 3D environments have been proposed in recent years; however, it remains extreme challenging to automatically equip such environment with realistic human bodies. Existing work utilizes images, depths, or semantic maps to represent the scene, and parametric human models to represent 3D bodies in the scene. While being straightforward, their generated human-scene interactions are often lack of naturalness and physical plausibility. Our key observation is that humans interact with the world through body-scene contact. To explicitly and effectively represent the physical contact between the body and the world is essential for modeling human-scene interaction. To that end, we propose a novel interaction representation, which explicitly encodes the proximity between the human body and the 3D scene around it. Specifically, given a set of basis points on a scene mesh, we leverage a conditional variational autoencoder to synthesize the distance from every basis point to its closest point on a human body. The synthesized proximal relationship between the human body and the scene can indicate which region a person tends to contact. Furthermore, based on such synthesized proximity, we can effectively obtain expressive 3D human bodies that naturally interact with the 3D scene. Our perceptual study shows that our model significantly improves the state-of-the-art method, approaching the realism of real human-scene interaction. We believe our method makes an important step towards the fully automatic synthesis of realistic 3D human bodies in 3D scenes.">
-<meta name="keywords" content="human-scene interaction; 3D scene; body generation; generating 3D human; deep learning; 3D vision; computer vision;">
+<meta name="description" content="High fidelity digital 3D environments have been proposed in recent years, however, it remains extremely challenging to automatically equip such environment with realistic human bodies. Existing work utilizes images, depth or semantic maps to represent the scene, and parametric human models to represent 3D bodies. While being straightforward, their generated human-scene interactions are often lack of naturalness and physical plausibility. Our key observation is that humans interact with the world through body-scene contact. To synthesize realistic human-scene interactions, it is essential to effectively represent the physical contact and proximity  between the body and the world. To that end, we propose a novel interaction generation method, named PLACE (Proximity Learning of Articulation and Contact in 3D Environments), which explicitly models the proximity between the human body and the 3D scene around it. Specifically, given a set of basis points on a scene mesh, we leverage a conditional variational autoencoder to synthesize the minimum distances from the basis points to the human body surface. The generated proximal relationship exhibits which region of the scene is in contact with the person. Furthermore, based on such synthesized proximity, we are able to effectively obtain expressive 3D human bodies that interact with the 3D scene naturally. Our perceptual study shows that PLACE significantly improves the state-of-the-art method, approaching the realism of real human-scene interaction. We believe our method makes an important step towards the fully automatic synthesis of realistic 3D human bodies in 3D scenes. The code and model are available for research at https://sanweiliti.github.io/PLACE/PLACE.html.">
+<meta name="keywords" content="human-scene interaction; 3D scene; proximity learning; generating 3D human; deep learning; 3D vision; computer vision;">
 <!--<link rel="author" href="http://wywu.github.io">-->
 
 <!-- Fonts and stuff -->
@@ -24,7 +24,7 @@
     <div id="content-inner">
 
 		<div class="section head">
-	<h1><font size="5">Generating Person-Scene Interactions in 3D Scenes</font></h1>
+	<h1><font size="5">PLACE: Proximity Learning of Articulation and Contact in 3D Environments</font></h1>
 
 	<div class="authors">
 		<a href="https://inf.ethz.ch/people/people-atoz/person-detail.MjQyOTY2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html">Siwei Zhang</a><sup>1</sup>
@@ -42,7 +42,7 @@
 	<div class="venue">International Conference on 3D Vision (<a href="http://3dv2020.dgcv.nii.ac.jp/" target="_blank">3DV</a>) 2020 </div>
 
 	<ul id="tabs">
-		<li><a href="./Gen3DHuman.html" name="#tab1">Generating Person-Scene Interactions in 3D Scenes</a></li>
+		<li><a href="./PLACE.html" name="#tab1">PLACE</a></li>
 	</ul>
 	</div>
 
@@ -54,7 +54,7 @@
       <div class="section abstract">
 	<h2>Abstract</h2>
 	<p>
-High fidelity digital 3D environments have been proposed in recent years; however, it remains extreme challenging to automatically equip such environment with realistic human bodies. Existing work utilizes images, depths, or semantic maps to represent the scene, and parametric human models to represent 3D bodies in the scene. While being straightforward, their generated human-scene interactions are often lack of naturalness and physical plausibility. Our key observation is that humans interact with the world through body-scene contact. To explicitly and effectively represent the physical contact between the body and the world is essential for modeling human-scene interaction. To that end, we propose a novel interaction representation, which explicitly encodes the proximity between the human body and the 3D scene around it. Specifically, given a set of basis points on a scene mesh, we leverage a conditional variational autoencoder to synthesize the distance from every basis point to its closest point on a human body. The synthesized proximal relationship between the human body and the scene can indicate which region a person tends to contact. Furthermore, based on such synthesized proximity, we can effectively obtain expressive 3D human bodies that naturally interact with the 3D scene. Our perceptual study shows that our model significantly improves the state-of-the-art method, approaching the realism of real human-scene interaction. We believe our method makes an important step towards the fully automatic synthesis of realistic 3D human bodies in 3D scenes.
+High fidelity digital 3D environments have been proposed in recent years, however, it remains extremely challenging to automatically equip such environment with realistic human bodies. Existing work utilizes images, depth or semantic maps to represent the scene, and parametric human models to represent 3D bodies. While being straightforward, their generated human-scene interactions are often lack of naturalness and physical plausibility. Our key observation is that humans interact with the world through body-scene contact. To synthesize realistic human-scene interactions, it is essential to effectively represent the physical contact and proximity  between the body and the world. To that end, we propose a novel interaction generation method, named PLACE (Proximity Learning of Articulation and Contact in 3D Environments), which explicitly models the proximity between the human body and the 3D scene around it. Specifically, given a set of basis points on a scene mesh, we leverage a conditional variational autoencoder to synthesize the minimum distances from the basis points to the human body surface. The generated proximal relationship exhibits which region of the scene is in contact with the person. Furthermore, based on such synthesized proximity, we are able to effectively obtain expressive 3D human bodies that interact with the 3D scene naturally. Our perceptual study shows that PLACE significantly improves the state-of-the-art method, approaching the realism of real human-scene interaction. We believe our method makes an important step towards the fully automatic synthesis of realistic 3D human bodies in 3D scenes. The code and model are available for research at https://sanweiliti.github.io/PLACE/PLACE.html.
 	</p>
       </div>
 <div class="section downloads">
@@ -84,7 +84,7 @@ High fidelity digital 3D environments have been proposed in recent years; howeve
 
 	    <li class="grid">
 	      <div class="griditem">
-		<a href="https://github.com/sanweiliti/Generating_Person_Scene_Interactions" target="_blank" class="imageLink"><img src="./support/code.png"></a><br><a href="https://github.com/sanweiliti/Generating_Person_Scene_Interactions" target="_blank">Code</a>
+		<a href="https://github.com/sanweiliti/PLACE" target="_blank" class="imageLink"><img src="./support/code.png"></a><br><a href="https://github.com/sanweiliti/Generating_Person_Scene_Interactions" target="_blank">Code</a>
 		</div>
 	      </li>
 	    </ul>
@@ -97,10 +97,10 @@ High fidelity digital 3D environments have been proposed in recent years; howeve
 	<h2>Citation</h2>
 	
 	<div class="section bibtex">
-	  <pre>@inproceedings{zhang2020generating,
-  title={Generating Person-Scene Interactions in 3D Scenes},
+	  <pre>@inproceedings{zhang2020place,
+  title={PLACE: Proximity Learning of Articulation and Contact in 3D Environments},
   author={Zhang, Siwei and Zhang, Yan and Ma, Qianli and Black, Michael J and Tang, Siyu},
-  booktitle={2020 International Conference on 3D Vision (3DV)},
+  booktitle={International Conference on 3D Vision (3DV)},
   year={2020},
   organization={IEEE}
 }
