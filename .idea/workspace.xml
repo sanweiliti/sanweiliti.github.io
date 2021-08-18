@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LEMO/LEMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/LEMO.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1322" />
+          <entry key="html" value="1723" />
           <entry key="md" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1322" />
+          <entry key="HTML" value="1723" />
           <entry key="Markdown" value="132" />
         </counts>
       </usages-collector>
@@ -55,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="87" />
+            <state relative-caret-position="627">
+              <caret line="106" column="17" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="106" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,8 +65,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state relative-caret-position="623">
+              <caret line="262" column="25" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+              <folding>
+                <element signature="e#4759#4765#0" expanded="true" />
+                <element signature="e#9231#9237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +101,10 @@
       <find>citation</find>
       <find>br</find>
       <find>video</find>
+      <find>Recovering high-quality</find>
+      <find>downloads</find>
+      <find>grid</find>
+      <find>center</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -302,13 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LEMO_github/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -319,10 +321,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="106" column="17" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="106" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="623">
+          <caret line="262" column="25" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+          <folding>
+            <element signature="e#4759#4765#0" expanded="true" />
+            <element signature="e#9231#9237#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
