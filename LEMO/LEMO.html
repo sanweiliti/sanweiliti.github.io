@@ -4,18 +4,20 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="LEMO is a ...">
-       <meta name="keywords" content="LEMO; motion prior; pose estimation; motion capture; human-scene interaction; 3D scene; deep learning; 3D vision; computer vision;">
+       <meta name="keywords" content="motion prior; pose estimation; LEMO; motion capture; human-scene interaction; 3D scene; deep learning; 3D vision; computer vision;">
       <meta name="author" content="Siwei Zhang">
-      <title>LEMO: Learning Motion Priors for 4D Human Body Capture in 3D Scenes</title>
-      <meta property="og:title" content="[ICCV 2021] LEMO: ..." />
-      <meta property="og:description" content="LEMO is a ... ">
-      <meta property="og:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />
+      <title>Learning Motion Priors for 4D Human Body Capture in 3D Scenes</title>
 
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="[ICCV 2021] LEMO: ..." />
-      <meta name="twitter:description" content="LEMO is a ..." />
-      <meta name="twitter:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />
-      <meta name="twitter:image:alt" content="LEMO ICCV 2021" />
+      <!--<meta property="og:title" content="[ICCV 2021] LEMO: ..." />-->
+      <!--<meta property="og:description" content="LEMO is a ... ">-->
+      <!--<meta property="og:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />-->
+
+      <!--<meta name="twitter:card" content="summary_large_image" />-->
+      <!--<meta name="twitter:title" content="[ICCV 2021] LEMO: ..." />-->
+      <!--<meta name="twitter:description" content="LEMO is a ..." />-->
+      <!--<meta name="twitter:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />-->
+      <!--<meta name="twitter:image:alt" content="LEMO ICCV 2021" />-->
+
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <!-- Custom styles for this template -->
@@ -116,32 +118,41 @@
                      <p><img class="img-fluid" alt="teaser" src="images/teaser.jpg"></p>
                   </div>
                   <br><br>
-                  <h3>Abstract</h3>
+                  <h2>Abstract</h2>
                   <p class="lead text-justify">
-                     abstract ...
+                     Recovering high-quality 3D human motion in complex scenes from monocular videos is important for many applications, ranging from AR/VR to robotics. However, capturing realistic human-scene interactions, while dealing with occlusions and partial views, is challenging; current approaches are still far from achieving compelling results. We address this problem by proposing LEMO: LEarning human MOtion priors for 4D human body capture. By leveraging the large-scale motion capture dataset AMASS, we introduce a novel motion smoothness prior, which strongly reduces the jitters exhibited by poses recovered over a sequence. Furthermore, to handle contacts and occlusions occurring frequently in body-scene interactions, we design a contact friction term and a contact-aware motion infiller obtained via per-instance self-supervised training. To prove the effectiveness of the proposed motion priors, we combine them into a novel pipeline for 4D human body capture in 3D scenes. With our pipeline, we demonstrate high-quality 4D human body capture, reconstructing smooth motions and physically plausible body-scene interactions. The code and data are available at https://sanweiliti.github.io/LEMO/LEMO.html.
                   </p>
-                  <p class="lead text-justify">
-                     <!-- where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
-                  </p>
+                  <!--<p class="lead text-justify">
+                      where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
+                  <!-- </p>
                   <br> <br>
                    <div class="img-wide text-center">
-                     <!-- To account for the undefined skinning weights for the points
+                      To account for the undefined skinning weights for the points
                      that are not on the surface of a human body, LEAP leverages
                      the consistency relationship between the forward LBS
                      and the inverse LBS weights and incorporates cycle-distance
-                     into the occupancy network. -->
-                  </p>
-                  <p class="lead text-justify">
-                     <!-- LEAP captures accurate identify- and pose-dependent
+                     into the occupancy network.
+                  </p> -->
+                  <!--<p class="lead text-justify">
+                      LEAP captures accurate identify- and pose-dependent
                      deformations through advanced encoding schemes that
                      incorporate prior knowledge about the kinematic structure
-                     and plausible shape of a human body. -->
-                  </p>
-                  <br> <br>
+                     and plausible shape of a human body.
+                  </p> -->
+                   <br> <br>
+                   <h2>Multi-stage Pipeline Overview</h2>
                   <div class="text-center">
                      <p><img class="img-fluid" alt="method overview" src="images/pipeline.jpg"></p>
                   </div>
-                  <br><br> <br>
+                   <p class="lead text-justify">
+                          Provided a scene mesh and an RGBD sequence with body occlusion, our method recovers a realistic global motion, with natural person-scene interactions.
+                       The markers trajectories (left) and accelerations (right) of each stage are shown at the bottom, as well as a walking sequence from AMASS (<font color="#ff69b4">pink</font>).
+                       Note that the results from Stage 1 show large and unrealistic motion accelerations (<font color=#4169e1>blue</font>).
+                       The recovered motion (<font color="#006400">green</font>) in Stage 2 is significantly smoother.
+                       However, it also loses the realistic accelerations (peaks in the acceleration plot) that can happen when the body interacts with the scene (e.g. foot-to-ground contact during walking).
+                       Our recovered motion from Stage 3 (<font color=#ff8c00>orange</font>) is similar to the high-quality AMASS motion w.r.t. both the trajectory smoothness and the acceleration patterns.
+                   </p>
+
                   <!-- <h4>Use-case</h4> -->
                   <p class="lead text-justify">
                      <!-- We release a pretrained LEAP model that generalizes to unseen human bodies.
@@ -157,25 +168,26 @@
          </div>
       </section>
 
-      <section id="video" class="">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-10 mx-auto">
-                  <h2 class="section-title-tc">Video</h2>
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xxxx" title="[ICCV 2021] LEMO: ..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
+      <!--<section id="video" class="">-->
+         <!--<div class="container">-->
+            <!--<div class="row">-->
+               <!--<div class="col-lg-10 mx-auto">-->
+                  <!--<h2 class="section-title-tc">Video</h2>-->
+                  <!--<div class="embed-responsive embed-responsive-16by9">-->
+                    <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xxxx" title="[ICCV 2021] LEMO: ..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                  <!--</div>-->
 
-               </div>
-            </div>
-         </div>
-      </section>
+               <!--</div>-->
+            <!--</div>-->
+         <!--</div>-->
+      <!--</section>-->
 
       <section id="downloads" class="">
          <div class="container">
             <div class="row">
                <div class="col-lg-10 mx-auto">
-                  <h2 class="section-title-tc">
+                   <h2>Downloads</h2> <br>
+                  <h2 class="img-wide text-center">
                       <a class="publink" href="https://github.com/sanweiliti/LEMO" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;&nbsp;
                       <a class="publink" href="https://github.com/sanweiliti/LEMO" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a> &nbsp;&nbsp;
                       <a class="publink" href="https://github.com/sanweiliti/LEMO" target="_blank" style="text-decoration: none"> Data <i class="fa fa-database"></i></a>
@@ -193,13 +205,13 @@
                   <h2 class="section-title-tc">Citation</h2>
                   <br>
                   <a class="publink" target="_blank" href="https://arxiv.org/pdf/TODO.pdf"><b>
-                    LEMO: ...</b><br></a>
+                    Learning Motion Priors for 4D Human Body Capture in 3D Scenes </b><br></a>
                     Siwei Zhang, Yan Zhang, Federica Bogo, Marc Pollefeys, Siyu Tang<br>
-                    In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021
+                    In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021
                   <br><br>
 <pre style="display: block; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px">
 @inproceedings{Zhang:ICCV:2021,
-   title = {Learning Human Motion Priors for 4D Body Capture in 3D Scenes},
+   title = {Learning Motion Priors for 4D Human Body Capture in 3D Scenes},
    author = {Zhang, Siwei and Zhang, Yan and Bogo, Federica and Pollefeys Marc and Tang, Siyu},
    booktitle = {International Conference on Computer Vision (ICCV)},
    month = oct,

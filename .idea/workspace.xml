@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HMP/HMP.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/css/scrolling-nav-old.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/css/scrolling-nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/pipeline.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/teams/federica.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/teams/marc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/teams/siwei.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/teams/siyu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/teams/yan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/images/teaser.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/js/scrolling-nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMP/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEMO/LEMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/LEMO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEMO/images/teaser.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/images/teaser.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,35 +39,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1071" />
-          <entry key="md" value="110" />
+          <entry key="html" value="1239" />
+          <entry key="md" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1071" />
-          <entry key="Markdown" value="110" />
+          <entry key="HTML" value="1239" />
+          <entry key="Markdown" value="130" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+            <state relative-caret-position="250">
+              <caret line="170" selection-start-line="170" selection-end-line="182" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LEMO_github/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,6 +86,8 @@
       <find>video</find>
       <find>HMP</find>
       <find>LEMO</find>
+      <find>citation</find>
+      <find>br</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,8 +102,8 @@
         <option value="$PROJECT_DIR$/HMP/HPS.html" />
         <option value="$PROJECT_DIR$/../HMP/README.md" />
         <option value="$PROJECT_DIR$/HMP/HMP.html" />
-        <option value="$PROJECT_DIR$/LEMO/LEMO.html" />
         <option value="$PROJECT_DIR$/../LEMO_github/README.md" />
+        <option value="$PROJECT_DIR$/LEMO/LEMO.html" />
       </list>
     </option>
   </component>
@@ -331,20 +296,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LEMO_github/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="170" selection-start-line="170" selection-end-line="182" selection-end-column="20" />
         </state>
       </provider>
     </entry>
