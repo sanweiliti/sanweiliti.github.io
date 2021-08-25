@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LEMO/LEMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/LEMO.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="104" />
+            <state relative-caret-position="-324">
+              <caret line="199" column="83" selection-start-line="199" selection-start-column="83" selection-end-line="199" selection-end-column="83" />
               <folding>
                 <element signature="e#4759#4765#0" expanded="true" />
                 <element signature="e#9231#9237#0" expanded="true" />
@@ -96,7 +97,6 @@
       <find>Pollefey</find>
       <find>publi</find>
       <find>favicon</find>
-      <find>github</find>
       <find>HMP</find>
       <find>LEMO</find>
       <find>citation</find>
@@ -106,6 +106,7 @@
       <find>grid</find>
       <find>center</find>
       <find>video</find>
+      <find>github</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,7 +133,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="714" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
@@ -201,6 +202,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -330,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="104" />
+        <state relative-caret-position="-324">
+          <caret line="199" column="83" selection-start-line="199" selection-start-column="83" selection-end-line="199" selection-end-column="83" />
           <folding>
             <element signature="e#4759#4765#0" expanded="true" />
             <element signature="e#9231#9237#0" expanded="true" />
