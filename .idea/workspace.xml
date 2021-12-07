@@ -40,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="443" />
-          <entry key="html" value="2385" />
+          <entry key="html" value="2418" />
           <entry key="md" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2385" />
+          <entry key="HTML" value="2418" />
           <entry key="Markdown" value="132" />
           <entry key="Python" value="443" />
         </counts>
@@ -58,10 +58,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="93" column="138" selection-start-line="93" selection-start-column="138" selection-end-line="93" selection-end-column="138" />
+            <state relative-caret-position="419">
+              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
               <folding>
+                <element signature="e#5866#5872#0" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#h3#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5600#5606#0" expanded="true" />
                 <element signature="e#12787#12793#0" expanded="true" />
                 <element signature="e#13324#13330#0" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#h2#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -88,7 +90,6 @@
       <find>publi</find>
       <find>favicon</find>
       <find>HMP</find>
-      <find>LEMO</find>
       <find>citation</find>
       <find>br</find>
       <find>Recovering high-quality</find>
@@ -105,6 +106,7 @@
       <find>github</find>
       <find>drive</find>
       <find>Understanding</find>
+      <find>LEMO</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -268,10 +270,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="93" column="138" selection-start-line="93" selection-start-column="138" selection-end-line="93" selection-end-column="138" />
+        <state relative-caret-position="419">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
           <folding>
+            <element signature="e#5866#5872#0" expanded="true" />
             <element signature="n#style#0;n#a#1;n#h3#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5600#5606#0" expanded="true" />
             <element signature="e#12787#12793#0" expanded="true" />
             <element signature="e#13324#13330#0" expanded="true" />
             <element signature="n#style#0;n#a#1;n#h2#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
