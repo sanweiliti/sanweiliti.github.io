@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="We propose EgoBody, a novel large-scale dataset for social interactions in complex 3D scenes. We employ Microsoft HoloLens2 headsets to record rich egocentric data streams (including RGB, depth, eye gaze, head and hand tracking). To obtain accurate 3D ground-truth, we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to multi-view RGB-D frames, reconstructing 3D human poses and shapes relative to the scene.">
+       <meta name="keywords" content="social interaction; egocentric view; first-person view; pose estimation; EgoBody; motion capture; human-scene interaction; 3D scene; deep learning; 3D vision; computer vision;">
+      <meta name="author" content="Siwei Zhang">
+      <title>EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices</title>
+
+      <!--<meta property="og:title" content="EgoBody: ..." />-->
+      <!--<meta property="og:description" content="EgoBody is a ... ">-->
+      <!--<meta property="og:image" content="images/teaser.jpg" />-->
+
+      <!--<meta name="twitter:card" content="summary_large_image" />-->
+      <!--<meta name="twitter:title" content="EgoBody: ..." />-->
+      <!--<meta name="twitter:description" content="EgoBody is a ..." />-->
+      <!--<meta name="twitter:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />-->
+      <!--<meta name="twitter:image:alt" content="EgoBody" />-->
+
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/scrolling-nav.css" rel="stylesheet">
+      <!-- nice figures  -->
+      <!--<link rel="stylesheet" href="css/font-awesome.css">-->
+      <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+
+   </head>
+   <body id="page-top">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">EgoBody</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#video">Video</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#downloads">Downloads</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#citation">Citation</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+
+      <header class="bg-light text-black">
+          <div class="container text-center">
+             <h1>EgoBody </h1>
+             <h2>Human Body Shape, Motion and Social Interactions from Head-Mounted Devices</h2><br>
+              <div id="content">
+          <div id="content-inner">
+
+            <div class="section head">
+
+                <div class="authors">
+                    <h5>
+                        <a href="https://scholar.google.com/citations?hl=en&user=q7JVOrQAAAAJ">Siwei Zhang</a><sup>1</sup>&nbsp;
+                        <a href="https://qianlim.github.io/">Qianli Ma</a><sup>1</sup>&nbsp;
+                        <a href="https://yz-cnsdqz.github.io/">Yan Zhang</a><sup>1</sup>&nbsp;
+                        <a href="https://ethz.ch/en.html">Zhiyin Qian</a><sup>1</sup>&nbsp;
+                        <a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a><sup>1,2</sup>&nbsp;
+                        <a href="https://fbogo.github.io/">Federica Bogo</a><sup>2</sup>&nbsp;
+                        <a href="https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html">Siyu Tang</a><sup>1</sup>
+                        <h5>
+                </div>
+
+                <div class="affiliations">
+                    <h5>
+                        <sup>1</sup><a href="https://ethz.ch/en.html">ETH Zurich</a>&nbsp;
+                        <sup>2</sup><a href="https://www.microsoft.com/en-us/research/">Microsoft<br></a>
+                        <h5>
+                </div>
+
+                <!--<div class="venue"><h5>International Conference on Computer Vision (<a href="http://iccv2021.thecvf.com/" target="_blank">ICCV</a>) 2021 (Oral)<h5></div>-->
+
+                <div class="downloads">
+                    <br><h3>
+                    <a class="publink" href="https://arxiv.org/pdf/xxxx.pdf" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;&nbsp;
+                    <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a> &nbsp;&nbsp;
+                    <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Data <i class="fa fa-database"></i></a>
+                    <h3>
+                </div>
+
+            </div>
+
+
+            <!-- <br> -->
+
+
+        </div>
+      </header>
+
+
+      <section id="about" class="about-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                  <p class="lead text-justify">
+                     <!-- where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
+                  </p>
+                  <br> <br>
+                   <div class="text-center">
+                     <!-- <p><img class="img-fluid" alt="teaser" src="https://via.placeholder.com/1500x600"></p> -->
+                     <p><img class="img-fluid" alt="teaser" src="images/teaser_v1.jpg"></p>
+                       <p class="lead text-justify">
+                           <b>Dataset Overview</b>. EgoBody is a large-scale dataset for human 3D motion and social interactions in 3D scenes.
+                           Given two interacting subjects, we leverage a lightweight multi-camera rig to reconstruct their
+                           3D shape and pose over time (1st and 2nd rows). One of the subjects (<font color="#6495ED">blue</font>) wears a head-mounted device,
+                           synchronized with the rig, capturing egocentric multi-modal data like eye gaze tracking (<font color="#FF5733">red</font> circles in the 3rd row)
+                           and RGB images (bottom).
+                  </p>
+                  </div>
+                  <br><br>
+                  <h2>Abstract</h2>
+                  <p class="lead text-justify">
+                     Understanding social interactions from first-person views is crucial for many applications,
+                      ranging from assistive robotics to AR/VR. A first step for reasoning about interactions is to
+                      understand human pose and shape. However, research in this area is currently hindered by the lack of data.
+                      Existing datasets are limited in terms of either size, annotations, ground-truth capture modalities or
+                      the diversity of interactions. We address this shortcoming by proposing EgoBody,
+                      a novel large-scale dataset for social interactions in complex 3D scenes.
+                      We employ Microsoft HoloLens2 headsets to record rich egocentric data streams
+                      (including RGB, depth, eye gaze, head and hand tracking). To obtain accurate 3D ground-truth,
+                      we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to
+                      multi-view RGB-D frames, reconstructing 3D human poses and shapes relative to the scene.
+                      We collect 68 sequences, spanning diverse sociological interaction categories,
+                      and propose the first benchmark for 3D full-body pose and shape estimation from egocentric views.
+                  </p>
+                  <!--<p class="lead text-justify">
+                      where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
+                  <!-- </p>
+                  <br> <br>
+                   <div class="img-wide text-center">
+                      To account for the undefined skinning weights for the points
+                     that are not on the surface of a human body, LEAP leverages
+                     the consistency relationship between the forward LBS
+                     and the inverse LBS weights and incorporates cycle-distance
+                     into the occupancy network.
+                  </p> -->
+                  <!--<p class="lead text-justify">
+                      LEAP captures accurate identify- and pose-dependent
+                     deformations through advanced encoding schemes that
+                     incorporate prior knowledge about the kinematic structure
+                     and plausible shape of a human body.
+                  </p> -->
+                   <br> <br>
+                   <h2>Dataset Capture Overview</h2>
+                  <div class="text-center">
+                     <p><img class="img-fluid" alt="method overview" src="images/setup.jpg"></p>
+                  </div>
+                   <p class="lead text-justify">
+                       EgoBody collects sequences of subjects performing diverse social interactions in various indoor scenes.
+                       For each sequence, two subjects are involved in one or more predefined interactions.
+                       Three Azure Kinects capture the interactions from 3 views (A, B, C) with RGBD streams,
+                       and a synchronized HoloLens2 worn by one subject captures the first-person view image (D),
+                       together with depth, head, hand and eye gaze tracking streams.
+                   </p>
+
+                  <!-- <h4>Use-case</h4> -->
+                  <p class="lead text-justify">
+                     <!-- We release a pretrained LEAP model that generalizes to unseen human bodies.
+                    LEAP can be easily integrated into learning pipelines that require
+                     an efficient occupancy check to resolve collisions with other geometries flexibly represented as point clounds. -->
+                  <!--</p>-->
+                  <!--<br> <br>-->
+                  <!--<div class="text-center">-->
+                     <!--<p><img class="img-fluid" alt="Realistic human bodies" src="images/LEAP optimization.svg"></p>-->
+                  <!--</div>-->
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="video" class="">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                  <h2 class="section-title-tc">Video</h2>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nHxEZLOjzHo" title="EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--<section id="more_vis" class="">-->
+         <!--<div class="container">-->
+            <!--<div class="row">-->
+               <!--<div class="col-lg-10 mx-auto">-->
+                   <!--<br>-->
+                  <!--<h2 class="section-title-tc">More Visualization Results</h2>-->
+                  <!--<div class="embed-responsive embed-responsive-16by9">-->
+                    <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xxx" title="xxx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                  <!--</div>-->
+               <!--</div>-->
+            <!--</div>-->
+         <!--</div>-->
+
+      <section id="downloads" class="">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                   <h2>Downloads</h2> <br>
+                  <h2 class="img-wide text-center">
+                      <a class="publink" href="https://arxiv.org/pdf/xxxx.pdf" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;&nbsp;
+                      <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Dataset <i class="fa fa-database"></i></a> &nbsp;
+                      <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a> &nbsp;&nbsp;
+                  </h2>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+      <section id="citation" class="">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                  <h2 class="section-title-tc">Citation</h2>
+                  <br>
+                  <a class="publink" target="_blank" href="https://arxiv.org/pdf/xxxx.pdf"><b>
+                    EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices </b><br></a>
+                    Siwei Zhang, Qianli Ma, Yan Zhang, Zhiyin Qian, Marc Pollefeys, Federica Bogo, Siyu Tang<br>
+                  <br><br>
+<pre style="display: block; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px">
+@inproceedings{TODO,
+   title = {EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices},
+   author = {Zhang, Siwei and Qianli, Ma and Zhang, Yan and Zhiyin, Qian and Pollefeys Marc and Bogo, Federica and Tang, Siyu},
+   booktitle = {TODO},
+   month = Dec,
+   year = {2021}
+}</pre>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+      <section id="team" class="team-section">
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title-tc">Team</h2>
+                        <div class="text-center">
+                         <table>
+                               <tr>
+                                   <th> <img src="images/teams/siwei.jpg" width="125" height="125" border="0">  </th>
+                                   <th> <img src="images/teams/qianli.jpg" width="125" height="125" border="0">  </th>
+                                   <th> <img src="images/teams/yan.jpg" width="125" height="125" border="0"> </th>
+                                   <th> <img src="images/teams/zhiyin.jpg" width="125" height="125" border="0">  </th>
+                                   <th> <img src="images/teams/marc.jpg" width="125" height="125" border="0"> </th>
+                                   <th> <img src="images/teams/federica.jpeg" width="125" height="125" border="0"> </th>
+                                   <th> <img src="images/teams/siyu.jpg" width="125" height="125" border="0"> </th>
+                               </tr>
+
+                               <tr>
+                                   <td> Siwei Zhang  </td>
+                                   <td> Qianli Ma  </td>
+                                   <td> Yan Zhang </td>
+                                   <td> Zhiyin Qian  </td>
+                                   <td> Marc Pollefeys </td>
+                                   <td> Federica Bogo </td>
+                                   <td> Siyu Tang </td>
+                               </tr>
+                         </table>
+
+                        </div>
+                  </div>
+               </div>
+            </div>
+      </section>
+
+      <section id="contact" class="">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+	                <h2>Contact</h2>
+		            <br>For questions, please contact Siwei Zhang:<br><a href="mailto:siwei.zhang@inf.ethz.ch">siwei.zhang@inf.ethz.ch</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+      <!--<section id="team" class="team-section">-->
+         <!--<div class="container">-->
+            <!--<div class="row">-->
+               <!--<div class="col-lg-10 mx-auto">-->
+                  <!--<h2 class="section-title-tc">Team</h2>-->
+                  <!--<div class="row">-->
+                     <!--<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">-->
+                           <!--<div class="mainflip">-->
+                                 <!--<div class="card">-->
+                                    <!--<div class="card-body text-center">-->
+                                       <!--<p><img class=" img-fluid" src="images/teams/siwei.jpg" alt="card image"></p>-->
+                                       <!--<h5 class="card-title">Siwei Zhang</h5>-->
+                                    <!--</div>-->
+                                 <!--</div>-->
+                           <!--</div>-->
+                     <!--</div>-->
+
+                     <!--<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">-->
+                        <!--<div class="mainflip">-->
+                              <!--<div class="card">-->
+                                 <!--<div class="card-body text-center">-->
+                                    <!--<p><img class=" img-fluid" src="images/teams/yan.jpg" alt="card image"></p>-->
+                                    <!--<h5 class="card-title">Yan Zhang</h5>-->
+                                 <!--</div>-->
+                              <!--</div>-->
+                        <!--</div>-->
+                     <!--</div>-->
+
+                     <!--<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">-->
+                        <!--<div class="mainflip">-->
+                              <!--<div class="card">-->
+                                 <!--<div class="card-body text-center">-->
+                                    <!--<p><img class=" img-fluid" src="images/teams/federica.jpeg" alt="card image"></p>-->
+                                    <!--<h5 class="card-title">Federica Bogo</h5>-->
+                                 <!--</div>-->
+                              <!--</div>-->
+                        <!--</div>-->
+                     <!--</div>-->
+
+                      <!--<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">-->
+                        <!--<div class="mainflip">-->
+                              <!--<div class="card">-->
+                                 <!--<div class="card-body text-center">-->
+                                    <!--<p><img class=" img-fluid" src="images/teams/marc.jpg" alt="card image"></p>-->
+                                    <!--<h5 class="card-title">Marc Pollefeys</h5>-->
+                                 <!--</div>-->
+                              <!--</div>-->
+                        <!--</div>-->
+                     <!--</div>-->
+
+                     <!--<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">-->
+                        <!--<div class="mainflip">-->
+                              <!--<div class="card">-->
+                                 <!--<div class="card-body text-center">-->
+                                    <!--<p><img class=" img-fluid" src="images/teams/siyu.jpg" alt="card image"></p>-->
+                                    <!--<h5 class="card-title">Siyu Tang</h5>-->
+                                 <!--</div>-->
+                              <!--</div>-->
+                        <!--</div>-->
+                     <!--</div>-->
+
+                  <!--</div>-->
+               <!--</div>-->
+            <!--</div>-->
+         <!--</div>-->
+      <!--</section>-->
+
+
+
+
+
+
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+         <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; LEMO 2021</p>
+         </div>
+         <!-- /.container -->
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <!-- Custom JavaScript for this theme -->
+      <script src="js/scrolling-nav.js"></script>
+   </body>
+</html>

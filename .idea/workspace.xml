@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEMO/LEMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/LEMO.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +14,15 @@
     <session id="159224084">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="11" />
+          <entry key="html" value="13" />
           <entry key="jpg" value="1" />
           <entry key="md" value="2" />
           <entry key="png" value="4" />
@@ -33,7 +31,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="13" />
           <entry key="Image" value="5" />
           <entry key="Markdown" value="2" />
           <entry key="SVG" value="1" />
@@ -42,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="443" />
-          <entry key="html" value="1898" />
+          <entry key="html" value="2350" />
           <entry key="md" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1898" />
+          <entry key="HTML" value="2350" />
           <entry key="Markdown" value="132" />
           <entry key="Python" value="443" />
         </counts>
@@ -57,20 +55,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="106" column="17" selection-start-line="82" selection-start-column="4" selection-end-line="106" selection-end-column="17" />
+            <state relative-caret-position="317">
+              <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+              <folding>
+                <element signature="e#12787#12793#0" expanded="true" />
+                <element signature="e#13324#13330#0" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#h2#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="199" column="93" selection-start-line="199" selection-start-column="93" selection-end-line="199" selection-end-column="93" />
+            <state relative-caret-position="439">
+              <caret line="159" column="80" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -91,10 +94,16 @@
       <find>downloads</find>
       <find>grid</find>
       <find>center</find>
-      <find>github</find>
       <find>arxiv</find>
       <find>video</find>
       <find>data</find>
+      <find>ICCV</find>
+      <find>federica</find>
+      <find>Download</find>
+      <find>Siwei</find>
+      <find>github</find>
+      <find>drive</find>
+      <find>Understanding</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,6 +120,8 @@
         <option value="$PROJECT_DIR$/HMP/HMP.html" />
         <option value="$PROJECT_DIR$/../LEMO_github/README.md" />
         <option value="$PROJECT_DIR$/LEMO/LEMO.html" />
+        <option value="$PROJECT_DIR$/EgoBody/EgoBody.html" />
+        <option value="$PROJECT_DIR$/egobody/egobody.html" />
       </list>
     </option>
   </component>
@@ -140,12 +151,7 @@
             <path>
               <item name="sanweiliti.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanweiliti.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="LEMO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanweiliti.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanweiliti.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="PLACE" type="462c0819:PsiDirectoryNode" />
+              <item name="egobody" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,8 +196,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,7 +213,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.14819278" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.14819278" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,13 +241,6 @@
     <entry file="file://$PROJECT_DIR$/../HMP/README.md" />
     <entry file="file://$PROJECT_DIR$/HMP/index.html" />
     <entry file="file://$PROJECT_DIR$/HMP/HMP.html" />
-    <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="17" selection-start-line="82" selection-start-column="4" selection-end-line="106" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LEMO_github/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -251,10 +251,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="106" column="17" selection-start-line="82" selection-start-column="4" selection-end-line="106" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="199" column="93" selection-start-line="199" selection-start-column="93" selection-end-line="199" selection-end-column="93" />
+        <state relative-caret-position="439">
+          <caret line="159" column="80" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding>
+            <element signature="e#12787#12793#0" expanded="true" />
+            <element signature="e#13324#13330#0" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#h2#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
