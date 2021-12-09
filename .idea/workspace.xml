@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="" />
+    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/egobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/egobody.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +41,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="443" />
-          <entry key="html" value="2478" />
+          <entry key="html" value="2484" />
           <entry key="md" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2478" />
+          <entry key="HTML" value="2484" />
           <entry key="Markdown" value="132" />
           <entry key="Python" value="443" />
         </counts>
@@ -56,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="121" column="84" selection-start-line="121" selection-start-column="77" selection-end-line="121" selection-end-column="84" />
+            <state relative-caret-position="508">
+              <caret line="195" column="78" selection-start-line="195" selection-start-column="78" selection-end-line="195" selection-end-column="78" />
               <folding>
                 <element signature="e#5866#5872#0" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#h3#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -97,6 +100,7 @@
       <find>Understanding</find>
       <find>LEMO</find>
       <find>EgoBody</find>
+      <find>Human Body Shape</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -260,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="121" column="84" selection-start-line="121" selection-start-column="77" selection-end-line="121" selection-end-column="84" />
+        <state relative-caret-position="508">
+          <caret line="195" column="78" selection-start-line="195" selection-start-column="78" selection-end-line="195" selection-end-column="78" />
           <folding>
             <element signature="e#5866#5872#0" expanded="true" />
             <element signature="n#style#0;n#a#1;n#h3#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
