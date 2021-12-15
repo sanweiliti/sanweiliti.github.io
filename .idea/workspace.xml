@@ -3,39 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/egobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/egobody.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Code</find>
-      <find>Pollefey</find>
-      <find>publi</find>
-      <find>favicon</find>
-      <find>HMP</find>
-      <find>citation</find>
-      <find>br</find>
-      <find>Recovering high-quality</find>
-      <find>downloads</find>
-      <find>grid</find>
-      <find>center</find>
-      <find>arxiv</find>
-      <find>video</find>
-      <find>data</find>
-      <find>ICCV</find>
-      <find>federica</find>
-      <find>Download</find>
-      <find>Siwei</find>
-      <find>github</find>
-      <find>drive</find>
-      <find>Understanding</find>
-      <find>LEMO</find>
-      <find>EgoBody</find>
-      <find>Human Body Shape</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,13 +41,11 @@
       <option name="presentableId" value="Default" />
       <updated>1604345536887</updated>
       <workItem from="1639145866792" duration="594000" />
+      <workItem from="1639562314175" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
 </project>
