@@ -2,77 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/egobody/egobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/egobody.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="159224084">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="13" />
-          <entry key="jpg" value="1" />
-          <entry key="md" value="2" />
-          <entry key="png" value="4" />
-          <entry key="svg" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="13" />
-          <entry key="Image" value="5" />
-          <entry key="Markdown" value="2" />
-          <entry key="SVG" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="443" />
-          <entry key="html" value="2504" />
-          <entry key="md" value="132" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="2504" />
-          <entry key="Markdown" value="132" />
-          <entry key="Python" value="443" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="223" column="151" selection-start-line="223" selection-start-column="151" selection-end-line="223" selection-end-column="151" />
-              <folding>
-                <element signature="e#5866#5872#0" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#h3#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5600#5606#0" expanded="true" />
-                <element signature="e#12787#12793#0" expanded="true" />
-                <element signature="e#13324#13330#0" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#h2#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -105,55 +40,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/COSMO/index.html" />
-        <option value="$PROJECT_DIR$/PLACE/PLACE.html" />
-        <option value="$PROJECT_DIR$/COSMO/COSMO.html" />
-        <option value="$PROJECT_DIR$/HMP/HPS.html" />
-        <option value="$PROJECT_DIR$/../HMP/README.md" />
-        <option value="$PROJECT_DIR$/HMP/HMP.html" />
-        <option value="$PROJECT_DIR$/../LEMO_github/README.md" />
-        <option value="$PROJECT_DIR$/LEMO/LEMO.html" />
-        <option value="$PROJECT_DIR$/EgoBody/EgoBody.html" />
-        <option value="$PROJECT_DIR$/egobody/egobody.html" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sanweiliti.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanweiliti.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanweiliti.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanweiliti.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="egobody" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="JupyterTrust" id="ec2f597d-8d1d-4d9f-ba80-622fddfde9de" />
+  <component name="ProjectId" id="2266nrM5vI1w54pg84QdfIUDnBK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -165,18 +56,7 @@
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportGeventDebugging" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -187,94 +67,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604345536887</updated>
+      <workItem from="1639145866792" duration="594000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.14819278" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/COSMO/images/favicon.png" />
-    <entry file="file://$PROJECT_DIR$/COSMO/images/LEAP optimization.svg" />
-    <entry file="file://$PROJECT_DIR$/COSMO/images/leap_teaser_preview .png" />
-    <entry file="file://$PROJECT_DIR$/COSMO/images/pipeline.png" />
-    <entry file="file://$PROJECT_DIR$/COSMO/images/teaser figure ppl.png" />
-    <entry file="file://$PROJECT_DIR$/COSMO/images/teaser1200x630.jpg" />
-    <entry file="file://$PROJECT_DIR$/COSMO/index.html" />
-    <entry file="file://$PROJECT_DIR$/COSMO/COSMO.html" />
-    <entry file="file://$PROJECT_DIR$/HMP/HPS.html" />
-    <entry file="file://$PROJECT_DIR$/../HMP/README.md" />
-    <entry file="file://$PROJECT_DIR$/HMP/index.html" />
-    <entry file="file://$PROJECT_DIR$/HMP/HMP.html" />
-    <entry file="file://$PROJECT_DIR$/../LEMO_github/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-442">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PLACE/PLACE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="106" column="17" selection-start-line="82" selection-start-column="4" selection-end-line="106" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LEMO/LEMO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="159" column="80" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/egobody/egobody.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="223" column="151" selection-start-line="223" selection-start-column="151" selection-end-line="223" selection-end-column="151" />
-          <folding>
-            <element signature="e#5866#5872#0" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#h3#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5600#5606#0" expanded="true" />
-            <element signature="e#12787#12793#0" expanded="true" />
-            <element signature="e#13324#13330#0" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#h2#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
