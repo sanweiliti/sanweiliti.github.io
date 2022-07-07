@@ -3,10 +3,10 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="We propose EgoBody, a novel large-scale dataset for social interactions in complex 3D scenes. We employ Microsoft HoloLens2 headsets to record rich egocentric data streams (including RGB, depth, eye gaze, head and hand tracking). To obtain accurate 3D ground-truth, we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to multi-view RGB-D frames, reconstructing 3D human poses and shapes relative to the scene.">
+      <meta name="description" content="EgoBody is a novel large-scale dataset for egocentric 3D human pose, shape and motions under interactions in complex 3D scenes. We employ Microsoft HoloLens2 headsets to record rich egocentric data streams (including RGB, depth, eye gaze, head and hand tracking). To obtain accurate 3D ground-truth, we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to multi-view RGB-D frames, reconstructing 3D human poses and shapes relative to the scene.">
        <meta name="keywords" content="social interaction; dataset; egocentric view; first-person view; pose estimation; EgoBody; motion capture; 3D motion dataset; human-scene interaction; 3D scene; deep learning; 3D vision; computer vision;">
       <meta name="author" content="Siwei Zhang">
-      <title>EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices</title>
+      <title>EgoBody: Human Body Shape and Motion of Interacting People from Head-Mounted Devices</title>
 
       <!--<meta property="og:title" content="EgoBody: ..." />-->
       <!--<meta property="og:description" content="EgoBody is a ... ">-->
@@ -61,7 +61,7 @@
       <header class="bg-light text-black">
           <div class="container text-center">
              <h1>EgoBody Dataset</h1>
-             <h3>Human Body Shape, Motion and Social Interactions from Head-Mounted Devices</h3><br>
+             <h2>EgoBody: Human Body Shape and Motion of Interacting People <br> from Head-Mounted Devices</h2><br>
               <div id="content">
           <div id="content-inner">
 
@@ -69,31 +69,45 @@
 
                 <div class="authors">
                     <h5>
-                        <a href="https://scholar.google.com/citations?hl=en&user=q7JVOrQAAAAJ">Siwei Zhang</a><sup>1</sup>&nbsp;
+                        <a href="https://vlg.inf.ethz.ch/team/Siwei-Zhang.html">Siwei Zhang</a><sup>1</sup>&nbsp;
                         <a href="https://qianlim.github.io/">Qianli Ma</a><sup>1</sup>&nbsp;
                         <a href="https://yz-cnsdqz.github.io/">Yan Zhang</a><sup>1</sup>&nbsp;
                         <a href="https://ethz.ch/en.html">Zhiyin Qian</a><sup>1</sup>&nbsp;
+                        <a href="https://taeinkwon.com/">Taein Kwon</a><sup>1</sup>&nbsp;
                         <a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a><sup>1,2</sup>&nbsp;
-                        <a href="https://fbogo.github.io/">Federica Bogo</a><sup>2</sup>&nbsp;
-                        <a href="https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html">Siyu Tang</a><sup>1</sup>
+                        <a href="https://fbogo.github.io/">Federica Bogo</a><sup>3*</sup>&nbsp;
+                        <a href="https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html">Siyu Tang</a><sup>1</sup>
                         <h5>
                 </div>
 
                 <div class="affiliations">
                     <h5>
-                        <sup>1</sup><a href="https://ethz.ch/en.html">ETH Zürich</a>&nbsp;
-                        <sup>2</sup><a href="https://www.microsoft.com/en-us/research/">Microsoft<br></a>
+                        <sup>1</sup><a href="https://ethz.ch/en.html">ETH Zürich</a>&nbsp; &nbsp;&nbsp;
+                        <sup>2</sup><a href="https://www.microsoft.com/en-us/research/">Microsoft</a> &nbsp;&nbsp;
+                        <sup>3</sup><a href="https://tech.fb.com/ar-vr/">Meta (Reality Labs Research)<br></a>
                         <h5>
                 </div>
 
+                <div class="affiliations">
+                    <h6>
+                        * Work done during employment at Microsoft<br>
+                        <h6>
+                </div>
 
-                <!--<div class="venue"><h5>International Conference on Computer Vision (<a href="http://iccv2021.thecvf.com/" target="_blank">ICCV</a>) 2021 (Oral)<h5></div>-->
+
+
+
+                <div class="venue"><h5>European conference on computer vision (<a href="https://eccv2022.ecva.net/" target="_blank">ECCV</a>) 2022<h5></div>
 
                 <div class="downloads">
                     <br><h3>
                     <a class="publink" href="https://arxiv.org/pdf/2112.07642.pdf" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;
-                    <a class="publink" href="" target="_blank" style="text-decoration: none"> Dataset (coming soon) <i class="fa fa-database"></i></a> &nbsp;
-                    <a class="publink" href="" target="_blank" style="text-decoration: none"> Code (coming soon) <i class="fa fa-github"></i></a> &nbsp;
+                    &nbsp;&nbsp;
+                    <a class="publink" href="https://egobody.inf.ethz.ch" target="_blank" style="text-decoration: none"> Dataset <i class="fa fa-database"></i></a> &nbsp;
+                    &nbsp;&nbsp;
+                    <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a>
+                    &nbsp;&nbsp;
+                    <a class="publink" href="" target="_blank" style="text-decoration: none">  Challenge (coming soon) <i class="fa fa-bolt"></i></a>
                     <h3>
                 </div>
 
@@ -117,9 +131,9 @@
                   <br> <br>
                    <div class="text-center">
                      <!-- <p><img class="img-fluid" alt="teaser" src="https://via.placeholder.com/1500x600"></p> -->
-                     <p><img class="img-fluid" alt="teaser" src="images/teaser_v1.jpg"></p>
+                     <p><img class="img-fluid" alt="teaser" src="images/teaser_v2.jpg"></p>
                        <p class="lead text-justify">
-                           <b>Dataset Overview</b>. EgoBody is a large-scale dataset for human 3D motion and social interactions in 3D scenes.
+                           <b>Dataset Overview</b>. EgoBody is a large-scale dataset capturing ground-truth 3D human motions during social interactions in 3D scenes.
                            Given two interacting subjects, we leverage a lightweight multi-camera rig to reconstruct their
                            3D shape and pose over time (1st and 2nd rows). One of the subjects (<font color="#6495ED">blue</font>) wears a head-mounted device,
                            synchronized with the rig, capturing egocentric multi-modal data like eye gaze tracking (<font color="#FF5733">red</font> circles in the 3rd row)
@@ -129,18 +143,17 @@
                   <br><br>
                   <h2>Abstract</h2>
                   <p class="lead text-justify">
-                     Understanding social interactions from first-person views is crucial for many applications,
-                      ranging from assistive robotics to AR/VR. A first step for reasoning about interactions is to
-                      understand human pose and shape. However, research in this area is currently hindered by the lack of data.
-                      Existing datasets are limited in terms of either size, annotations, ground-truth capture modalities or
-                      the diversity of interactions. We address this shortcoming by proposing EgoBody,
-                      a novel large-scale dataset for social interactions in complex 3D scenes.
-                      We employ Microsoft HoloLens2 headsets to record rich egocentric data streams
-                      (including RGB, depth, eye gaze, head and hand tracking). To obtain accurate 3D ground-truth,
-                      we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to
-                      multi-view RGB-D frames, reconstructing 3D human poses and shapes relative to the scene.
-                      We collect 68 sequences, spanning diverse sociological interaction categories,
-                      and propose the first benchmark for 3D full-body pose and shape estimation from egocentric views.
+                     Understanding social interactions from egocentric views is crucial for many applications, ranging from assistive robotics to AR/VR.
+                      Key to reasoning about interactions is to understand the body pose and shape of the interaction partner from the egocentric view.
+                      However, research in this area is severely hindered by the lack of datasets. Existing datasets are limited in terms of either size,
+                      capture/annotation modalities, ground-truth quality, or interaction diversity. We fill this gap by proposing EgoBody, a novel large-scale dataset for human pose,
+                      shape and motion estimation from egocentric views, during interactions in complex 3D scenes. We employ Microsoft HoloLens2 headsets to record rich
+                      egocentric data streams (including RGB, depth, eye gaze, head and hand tracking).
+                      To obtain accurate 3D ground truth, we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to multi-view RGB-D frames,
+                      reconstructing 3D human shapes and poses relative to the scene, over time.We collect 125 sequences, spanning diverse interaction scenarios,
+                      and propose the first benchmark for 3D full-body pose and shape estimation of the social partner from egocentric views.
+                      We extensively evaluate state-of-the-art methods, highlight their limitations in the egocentric scenario,
+                      and address such limitations leveraging our high-quality annotations.
                   </p>
                   <!--<p class="lead text-justify">
                       where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
@@ -167,7 +180,7 @@
                    <p class="lead text-justify">
                        EgoBody collects sequences of subjects performing diverse social interactions in various indoor scenes.
                        For each sequence, two subjects are involved in one or more predefined interactions.
-                       Three Azure Kinects capture the interactions from 3 views (A, B, C) with RGBD streams,
+                       Multiple Azure Kinects capture the interactions from different views (A, B, C) with RGBD streams,
                        and a synchronized HoloLens2 worn by one subject captures the first-person view image (D),
                        together with depth, head, hand and eye gaze tracking streams.
                    </p>
@@ -200,6 +213,7 @@
          </div>
       </section>
 
+
       <!--<section id="more_vis" class="">-->
          <!--<div class="container">-->
             <!--<div class="row">-->
@@ -220,8 +234,9 @@
                    <h2>Downloads</h2> <br>
                   <h2 class="img-wide text-center">
                       <a class="publink" href="https://arxiv.org/pdf/2112.07642.pdf" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;&nbsp;
-                      <a class="publink" href="" target="_blank" style="text-decoration: none"> Dataset (coming soon) <i class="fa fa-database"></i></a> &nbsp;
-                      <a class="publink" href="" target="_blank" style="text-decoration: none"> Code (coming soon) <i class="fa fa-github"></i></a> &nbsp;&nbsp;
+                      <a class="publink" href="https://egobody.inf.ethz.ch" target="_blank" style="text-decoration: none"> Dataset <i class="fa fa-database"></i></a> &nbsp;
+                      <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a> &nbsp;&nbsp;
+                      <a class="publink" href="" target="_blank" style="text-decoration: none">  Challenge (coming soon) <i class="fa fa-bolt"></i></a>
                   </h2>
                </div>
             </div>
@@ -237,15 +252,16 @@
                   <h2 class="section-title-tc">Citation</h2>
                   <br>
                   <a class="publink" target="_blank" href="https://arxiv.org/pdf/2112.07642.pdf"><b>
-                    EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices </b><br></a>
-                    Siwei Zhang, Qianli Ma, Yan Zhang, Zhiyin Qian, Marc Pollefeys, Federica Bogo, Siyu Tang<br>
+                    EgoBody: Human Body Shape and Motion of Interacting People from Head-Mounted Devices </b><br></a>
+                    Siwei Zhang, Qianli Ma, Yan Zhang, Zhiyin Qian, Taein Kwon, Marc Pollefeys, Federica Bogo, Siyu Tang<br>
                   <br><br>
 <pre style="display: block; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px">
-@article{zhang2021egobody,
-   title = {EgoBody: Human Body Shape, Motion and Social Interactions from Head-Mounted Devices},
-   author = {Zhang, Siwei and Qianli, Ma and Zhang, Yan and Zhiyin, Qian and Pollefeys Marc and Bogo, Federica and Tang, Siyu},
-   journal = {arXiv preprint arXiv:2112.07642},
-   year = {2021}
+@inproceedings{Zhang:ECCV:2022,
+   title = {EgoBody: Human Body Shape and Motion of Interacting People from Head-Mounted Devices},
+   author = {Zhang, Siwei and Qianli, Ma and Zhang, Yan and Zhiyin, Qian and Kwon, Taein and Pollefeys, Marc and Bogo, Federica and Tang, Siyu},
+   booktitle = {European conference on computer vision (ECCV)},
+   month = oct,
+   year = {2022}
 }</pre>
                </div>
             </div>
@@ -263,13 +279,14 @@
                         <div class="text-center">
                          <table>
                                <tr>
-                                   <th> <img src="images/teams/siwei.jpg" width="125" height="125" border="0">  </th>
-                                   <th> <img src="images/teams/qianli.jpg" width="125" height="125" border="0">  </th>
-                                   <th> <img src="images/teams/yan.jpg" width="125" height="125" border="0"> </th>
-                                   <th> <img src="images/teams/zhiyin.jpg" width="125" height="125" border="0">  </th>
-                                   <th> <img src="images/teams/marc.jpg" width="125" height="125" border="0"> </th>
-                                   <th> <img src="images/teams/federica.jpeg" width="125" height="125" border="0"> </th>
-                                   <th> <img src="images/teams/siyu.jpg" width="125" height="125" border="0"> </th>
+                                   <th> <img src="images/teams/siwei.jpg" width="112" height="112" border="0">  </th>
+                                   <th> <img src="images/teams/qianli.jpg" width="112" height="112" border="0">  </th>
+                                   <th> <img src="images/teams/yan.jpg" width="112" height="112" border="0"> </th>
+                                   <th> <img src="images/teams/zhiyin.jpg" width="112" height="112" border="0">  </th>
+                                   <th> <img src="images/teams/taein.jpg" width="112" height="112" border="0"> </th>
+                                   <th> <img src="images/teams/marc.jpg" width="112" height="112" border="0"> </th>
+                                   <th> <img src="images/teams/federica.jpeg" width="112" height="112" border="0"> </th>
+                                   <th> <img src="images/teams/siyu.jpg" width="112" height="112" border="0"> </th>
                                </tr>
 
                                <tr>
@@ -277,6 +294,7 @@
                                    <td> Qianli Ma  </td>
                                    <td> Yan Zhang </td>
                                    <td> Zhiyin Qian  </td>
+                                   <td> Taein Kwon </td>
                                    <td> Marc Pollefeys </td>
                                    <td> Federica Bogo </td>
                                    <td> Siyu Tang </td>
@@ -378,7 +396,9 @@
       <!-- Footer -->
       <footer class="py-5 bg-dark">
          <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; VLG 2021</p>
+            <p class="m-0 text-center text-white">Copyright &copy; VLG 2022</p>
+             <p style="text-align:right;font-size:small;" class="text-white">
+            template from <a href="https://neuralbodies.github.io/LEAP/index.html">LEAP</a>
          </div>
          <!-- /.container -->
       </footer>

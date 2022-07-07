@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEMO/LEMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/LEMO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/egobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/egobody.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/images/teaser_v1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/images/teaser_v2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/images/teaser_v2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/videos/main.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/videos/main.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +47,18 @@
       <workItem from="1639145866792" duration="594000" />
       <workItem from="1639562314175" duration="1363000" />
       <workItem from="1642432610122" duration="139000" />
+      <workItem from="1657123022675" duration="3196000" />
+      <workItem from="1657145236461" duration="2556000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657124381161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1657124381161" />
   </component>
 </project>
