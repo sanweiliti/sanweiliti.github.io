@@ -40,11 +40,14 @@
                   <li class="nav-item">
                      <a class="nav-link js-scroll-trigger" href="#about">About</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link js-scroll-trigger" href="#video">Video</a>
+                   <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#dataset">Dataset</a>
+                  </li>
+                   <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#challenge">Challenge</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link js-scroll-trigger" href="#downloads">Downloads</a>
+                     <a class="nav-link js-scroll-trigger" href="#video">Video</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link js-scroll-trigger" href="#citation">Citation</a>
@@ -125,53 +128,59 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-10 mx-auto">
-                  <p class="lead text-justify">
-                     <!-- where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
-                  </p>
-                  <br> <br>
+
+<!--                   <br><br>-->
+<!--                  <h2>Abstract</h2>-->
+<!--                  <p class="lead text-justify">-->
+<!--                     Understanding social interactions from egocentric views is crucial for many applications, ranging from assistive robotics to AR/VR.-->
+<!--                      Key to reasoning about interactions is to understand the body pose and shape of the interaction partner from the egocentric view.-->
+<!--                      However, research in this area is severely hindered by the lack of datasets. Existing datasets are limited in terms of either size,-->
+<!--                      capture/annotation modalities, ground-truth quality, or interaction diversity. We fill this gap by proposing EgoBody, a novel large-scale dataset for human pose,-->
+<!--                      shape and motion estimation from egocentric views, during interactions in complex 3D scenes. We employ Microsoft HoloLens2 headsets to record rich-->
+<!--                      egocentric data streams (including RGB, depth, eye gaze, head and hand tracking).-->
+<!--                      To obtain accurate 3D ground truth, we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to multi-view RGB-D frames,-->
+<!--                      reconstructing 3D human shapes and poses relative to the scene, over time.We collect 125 sequences, spanning diverse interaction scenarios,-->
+<!--                      and propose the first benchmark for 3D full-body pose and shape estimation of the social partner from egocentric views.-->
+<!--                      We extensively evaluate state-of-the-art methods, highlight their limitations in the egocentric scenario,-->
+<!--                      and address such limitations leveraging our high-quality annotations.-->
+<!--                  </p>-->
+
+
+                   <h2>Dataset Overview</h2>
                    <div class="text-center">
                      <!-- <p><img class="img-fluid" alt="teaser" src="https://via.placeholder.com/1500x600"></p> -->
                      <p><img class="img-fluid" alt="teaser" src="images/teaser_v2.jpg"></p>
                        <p class="lead text-justify">
-                           <b>Dataset Overview</b>. EgoBody is a large-scale dataset capturing ground-truth 3D human motions during social interactions in 3D scenes.
+<!--                           <b>Dataset Overview</b>. -->
+                           EgoBody is a large-scale dataset capturing ground-truth 3D human motions during social interactions in 3D scenes.
                            Given two interacting subjects, we leverage a lightweight multi-camera rig to reconstruct their
                            3D shape and pose over time (1st and 2nd rows). One of the subjects (<font color="#6495ED">blue</font>) wears a head-mounted device,
                            synchronized with the rig, capturing egocentric multi-modal data like eye gaze tracking (<font color="#FF5733">red</font> circles in the 3rd row)
-                           and RGB images (bottom).
+                           and RGB images (bottom). EgoBody dataset contains:
+                           <br><br>
+                           &ensp;&#8226; 125 sequences <br>
+                           &ensp;&#8226; 36 subjects <br>
+                           &ensp;&#8226; 15 indoor 3D scenes <br>
+                           &ensp;&#8226; 219731 synchronized multi-view third-person view RGBD frames from 3-5 Azure Kinects <br>
+                           &ensp;&#8226; 199111 egocentric view RGB frames from HoloLens2, synchronized with Kinect frames <br>
+                           &ensp;&#8226; Eye gaze, hand/head tracking, and depth from HoloLens2 <br>
+                           &ensp;&#8226; SMPL-X/SMPL annotations for 3D body pose, shape and motion annotations for both the interactee and the camera wearer<br>
+
                   </p>
                   </div>
-                  <br><br>
-                  <h2>Abstract</h2>
-                  <p class="lead text-justify">
-                     Understanding social interactions from egocentric views is crucial for many applications, ranging from assistive robotics to AR/VR.
-                      Key to reasoning about interactions is to understand the body pose and shape of the interaction partner from the egocentric view.
-                      However, research in this area is severely hindered by the lack of datasets. Existing datasets are limited in terms of either size,
-                      capture/annotation modalities, ground-truth quality, or interaction diversity. We fill this gap by proposing EgoBody, a novel large-scale dataset for human pose,
-                      shape and motion estimation from egocentric views, during interactions in complex 3D scenes. We employ Microsoft HoloLens2 headsets to record rich
-                      egocentric data streams (including RGB, depth, eye gaze, head and hand tracking).
-                      To obtain accurate 3D ground truth, we calibrate the headset with a multi-Kinect rig and fit expressive SMPL-X body meshes to multi-view RGB-D frames,
-                      reconstructing 3D human shapes and poses relative to the scene, over time.We collect 125 sequences, spanning diverse interaction scenarios,
-                      and propose the first benchmark for 3D full-body pose and shape estimation of the social partner from egocentric views.
-                      We extensively evaluate state-of-the-art methods, highlight their limitations in the egocentric scenario,
-                      and address such limitations leveraging our high-quality annotations.
-                  </p>
-                  <!--<p class="lead text-justify">
-                      where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
-                  <!-- </p>
-                  <br> <br>
-                   <div class="img-wide text-center">
-                      To account for the undefined skinning weights for the points
-                     that are not on the surface of a human body, LEAP leverages
-                     the consistency relationship between the forward LBS
-                     and the inverse LBS weights and incorporates cycle-distance
-                     into the occupancy network.
-                  </p> -->
-                  <!--<p class="lead text-justify">
-                      LEAP captures accurate identify- and pose-dependent
-                     deformations through advanced encoding schemes that
-                     incorporate prior knowledge about the kinematic structure
-                     and plausible shape of a human body.
-                  </p> -->
+
+<!--                   <ul>-->
+<!--                       <li> 125 sequences </li>-->
+<!--                       <li> 36 subjects </li>-->
+<!--                       <li> 15 indoor 3D scenes </li>-->
+<!--                       <li> 219731 synchronized multi-view third-person view RGBD frames from 3-5 Azure Kinects </li>-->
+<!--                       <li> 199111 egocentric view RGB frames from HoloLens2, synchronized with Kinect frames </li>-->
+<!--                       <li> Eye gaze, hand/head tracking, and depth from HoloLens2 </li>-->
+<!--                       <li> 3D body pose, shape and motion annotations for both the interactee and the camera wearer in SMPL-X and SMPL </li>-->
+<!--                   </ul>-->
+
+
+
                    <br> <br>
                    <h2>Dataset Capture Overview</h2>
                   <div class="text-center">
@@ -185,20 +194,52 @@
                        together with depth, head, hand and eye gaze tracking streams.
                    </p>
 
-                  <!-- <h4>Use-case</h4> -->
-                  <p class="lead text-justify">
-                     <!-- We release a pretrained LEAP model that generalizes to unseen human bodies.
-                    LEAP can be easily integrated into learning pipelines that require
-                     an efficient occupancy check to resolve collisions with other geometries flexibly represented as point clounds. -->
-                  <!--</p>-->
-                  <!--<br> <br>-->
-                  <!--<div class="text-center">-->
-                     <!--<p><img class="img-fluid" alt="Realistic human bodies" src="images/LEAP optimization.svg"></p>-->
-                  <!--</div>-->
+
                </div>
             </div>
          </div>
       </section>
+
+
+      <section id="dataset" class="">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                   <h2>Dataset Download</h2> <br>
+                   <p class="lead text-justify">
+                       To download the EgoBody dataset, please sign the license and download the data
+                      <a class="publink" target="_blank" href="https://egobody.ethz.ch"><b><font color="#6495ED">here</font></b></a>.
+                       <br>
+                       For detailed information of the data format, please check <a class="publink" target="_blank" href="https://github.com/sanweiliti/EgoBody"><b><font color="#6495ED">here</font></b></a>.
+                       <br>
+                       Currently the EgoSet (egocentric RGB subset of EgoBody) is released. Other modalities (third-person view RGBD, 3D scene, eye gaze, etc.) will come soon.
+                   </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="challenge" class="">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 mx-auto">
+                   <h2>EgoBody Challenge</h2> <br>
+                   <p class="lead text-justify">
+                       In conjunction with ECCV 2022 workshop:
+                       <a class="publink" target="_blank" href="https://sites.google.com/view/egocentric-hand-body-activity"><b><font color="#6495ED">Human Body, Hands, and Activities from Egocentric and Multi-view Cameras</font></b></a>,
+                       We organized the first EgoBody challenge.
+                       The task for the first phase of the challenge is 3D human pose and shape estimation from egocentric monocular RGB image.
+                       We will add more challenge tracks with additional modalities after the first phase.
+                       <br><br>
+                       To participate in the EgoBody challenge, please submit your results
+                      <a class="publink" target="_blank" href="https://codalab.lisn.upsaclay.fr/competitions/6351"><b><font color="#6495ED">here</font></b></a>.
+                       The first phase of the challenge will be closed at October 1st, 2022. Participants are encouranged to submit a 2-4 page abstract to our ECCV workshop.
+                   </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
 
       <section id="video" class="">
          <div class="container">
@@ -227,21 +268,22 @@
             <!--</div>-->
          <!--</div>-->
 
-      <section id="downloads" class="">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-10 mx-auto">
-                   <h2>Downloads</h2> <br>
-                  <h2 class="img-wide text-center">
-                      <a class="publink" href="https://arxiv.org/pdf/2112.07642.pdf" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;&nbsp;
-                      <a class="publink" href="https://egobody.inf.ethz.ch" target="_blank" style="text-decoration: none"> Dataset <i class="fa fa-database"></i></a> &nbsp;
-                      <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a> &nbsp;&nbsp;
-                      <a class="publink" href="https://codalab.lisn.upsaclay.fr/competitions/6351" target="_blank" style="text-decoration: none">  Challenge <i class="fa fa-bolt"></i></a>
-                  </h2>
-               </div>
-            </div>
-         </div>
-      </section>
+<!--      <section id="downloads" class="">-->
+<!--         <div class="container">-->
+<!--            <div class="row">-->
+<!--               <div class="col-lg-10 mx-auto">-->
+<!--                   <h2>Downloads</h2> <br>-->
+<!--                  <h2 class="img-wide text-center">-->
+<!--                      <a class="publink" href="https://arxiv.org/pdf/2112.07642.pdf" target="_blank" style="text-decoration: none"> Paper <i class="fa fa-print"></i></a> &nbsp;&nbsp;-->
+<!--                      <a class="publink" href="https://egobody.inf.ethz.ch" target="_blank" style="text-decoration: none"> Dataset <i class="fa fa-database"></i></a> &nbsp;-->
+<!--                      <a class="publink" href="https://github.com/sanweiliti/EgoBody" target="_blank" style="text-decoration: none"> Code <i class="fa fa-github"></i></a> &nbsp;&nbsp;-->
+<!--                      <a class="publink" href="https://codalab.lisn.upsaclay.fr/competitions/6351" target="_blank" style="text-decoration: none">  Challenge <i class="fa fa-bolt"></i></a>-->
+<!--                  </h2>-->
+<!--               </div>-->
+<!--            </div>-->
+<!--         </div>-->
+<!--      </section>-->
+
 
 
 
