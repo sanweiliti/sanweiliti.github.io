@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/egohmr/egohmr.html" beforeDir="false" afterPath="$PROJECT_DIR$/egohmr/egohmr.html" afterDir="false" />
-    </list>
+    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +58,7 @@
       <workItem from="1679494473145" duration="3054000" />
       <workItem from="1680097585018" duration="522000" />
       <workItem from="1680178017764" duration="167000" />
-      <workItem from="1681301258055" duration="2428000" />
+      <workItem from="1681301258055" duration="2651000" />
     </task>
     <servers />
   </component>
