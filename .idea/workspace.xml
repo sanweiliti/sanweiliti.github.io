@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ec2f597d-8d1d-4d9f-ba80-622fddfde9de" />
+  <component name="ProjectId" id="2266nrM5vI1w54pg84QdfIUDnBK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportGeventDebugging" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="" />
+      <created>1604345536887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604345536887</updated>
+      <workItem from="1639145866792" duration="594000" />
+      <workItem from="1639562314175" duration="1363000" />
+      <workItem from="1642432610122" duration="139000" />
+      <workItem from="1657123022675" duration="3196000" />
+      <workItem from="1657145236461" duration="2866000" />
+      <workItem from="1657214792749" duration="1743000" />
+      <workItem from="1658077171567" duration="338000" />
+      <workItem from="1658169827984" duration="4508000" />
+      <workItem from="1658828260392" duration="1266000" />
+      <workItem from="1658838010115" duration="6012000" />
+      <workItem from="1659439261296" duration="1521000" />
+      <workItem from="1660309390841" duration="3550000" />
+      <workItem from="1660665051117" duration="2706000" />
+      <workItem from="1661438325812" duration="3000" />
+      <workItem from="1662977163115" duration="735000" />
+      <workItem from="1663020949799" duration="572000" />
+      <workItem from="1664806931401" duration="291000" />
+      <workItem from="1678985195598" duration="3173000" />
+      <workItem from="1679494473145" duration="3054000" />
+      <workItem from="1680097585018" duration="522000" />
+      <workItem from="1680178017764" duration="167000" />
+      <workItem from="1681301258055" duration="2110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657124381161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1657124381161" />
+  </component>
+</project>
