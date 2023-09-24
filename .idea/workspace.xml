@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egohmr/egohmr.html" beforeDir="false" afterPath="$PROJECT_DIR$/egohmr/egohmr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egohmr/images/teams/qianli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/egohmr/images/teams/qianli.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,9 @@
       <workItem from="1686514087554" duration="1663000" />
       <workItem from="1686648051230" duration="480000" />
       <workItem from="1690485289198" duration="392000" />
+      <workItem from="1692222376558" duration="889000" />
+      <workItem from="1692261249814" duration="12000" />
+      <workItem from="1695574907698" duration="942000" />
     </task>
     <servers />
   </component>
