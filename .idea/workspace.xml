@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/egohmr/egohmr.html" beforeDir="false" afterPath="$PROJECT_DIR$/egohmr/egohmr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/egohmr/images/teams/qianli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/egohmr/images/teams/qianli.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/egobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/egobody.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,8 @@
       <workItem from="1692222376558" duration="889000" />
       <workItem from="1692261249814" duration="12000" />
       <workItem from="1695574907698" duration="942000" />
+      <workItem from="1701456434600" duration="6515000" />
+      <workItem from="1701707362037" duration="15864000" />
     </task>
     <servers />
   </component>
@@ -76,9 +77,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="89" key="SettingsEditor" timestamp="1686648129662">
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1702047880872">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1702047880872" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1701870917984">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1686648129662" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1701870917984" />
   </component>
 </project>
