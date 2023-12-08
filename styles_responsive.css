@@ -5,7 +5,7 @@
     gap: 20px;
     align-items: center;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1080px;
   }
 
 
@@ -13,7 +13,7 @@
     align-items: center;
     margin: 0 auto;
     padding: 40px;
-    max-width: 1000px;
+    max-width: 1080px;
 }
   
   .item {
@@ -52,12 +52,12 @@
 .container2 {
     font-family: 'Candara', serif;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     gap: 10px;
     align-items: center;
     margin: 0 auto;
     margin-top: 6px;
-    max-width: 1000px;
+    max-width: 1080px;
   }
 
 .text2 {
@@ -69,7 +69,7 @@
     max-width: 100%;
     width: 100%;
     max-height: auto;
-    max-width: 300px;
+    max-width: 250px;
     margin: 10px 0;
   }
 
