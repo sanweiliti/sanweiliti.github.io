@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Candara&display=swap');*/
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -82,28 +84,40 @@ th,
 tr,
 p,
 a {
-  font-family: 'Candara', serif;
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px
 }
 
 strong {
-  font-family: 'Candara', serif;
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
 }
 
 heading {
-  font-family: 'Candara', serif;
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
 }
 
 papertitle {
-  font-family: 'Candara', serif;
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700
 }
 
+authorname {
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #00418A;
+}
+authorname:focus,
+authorname:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+
 name {
-  font-family: 'Candara', serif;
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
 
@@ -123,7 +137,7 @@ button {
   border: none;
   padding: 0;
   /*optional*/
-  font-family: 'Candara', serif;
+  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   /*input has OS specific font-family*/
   color:#1772d0;
