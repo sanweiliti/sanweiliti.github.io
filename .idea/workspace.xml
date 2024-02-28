@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="" />
+    <list default="true" id="bef552c0-9503-47a6-925a-56f82da63d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEMO/LEMO.html" beforeDir="false" afterPath="$PROJECT_DIR$/LEMO/LEMO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLACE/PLACE.html" beforeDir="false" afterPath="$PROJECT_DIR$/PLACE/PLACE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROHM/ROHM.html" beforeDir="false" afterPath="$PROJECT_DIR$/ROHM/ROHM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egobody/egobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/egobody/egobody.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egohmr/egohmr.html" beforeDir="false" afterPath="$PROJECT_DIR$/egohmr/egohmr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +80,8 @@
       <workItem from="1704716277491" duration="14409000" />
       <workItem from="1705356525943" duration="10000" />
       <workItem from="1705427718212" duration="945000" />
-      <workItem from="1708425479709" duration="817000" />
+      <workItem from="1708425479709" duration="1408000" />
+      <workItem from="1709151959272" duration="3794000" />
     </task>
     <servers />
   </component>
