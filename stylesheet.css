@@ -1,3 +1,35 @@
+:root {
+  --site-font: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Candara Local";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Candara"), local("Candara Regular");
+}
+
+@font-face {
+  font-family: "Candara Local";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Candara Italic");
+}
+
+@font-face {
+  font-family: "Candara Local";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Candara Bold");
+}
+
+@font-face {
+  font-family: "Candara Local";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Candara Bold Italic");
+}
+
 /*@import url('https://fonts.googleapis.com/css2?family=Candara&display=swap');*/
 
 /*!* cyrillic *!*/
@@ -161,64 +193,116 @@
 a {
   color: #1772d0;
   text-decoration: none;
+  text-underline-offset: 3px;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
+  color: #0b4f9c;
+  text-decoration: underline;
 }
 
 body{
-  line-height: 1.6em;
+  color: #25323d;
+  line-height: 1.7;
 }
+
+p {
+  margin: 0 0 15px;
+}
+
+ul {
+  margin-top: 8px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
 td,
 th,
 tr,
 em,
 p,
 a {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px
+  font-family: var(--site-font);
+  font-size: 16.5px
 }
 
 strong {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: var(--site-font);
+  font-size: 16.5px;
+  font-weight: 600;
   /*text-decoration: underline;*/
 }
 
-heading {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 24px;
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-family: var(--site-font);
+  font-size: 27px;
+  font-weight: 700;
+  color: #111c24;
+  margin: 50px 0 24px;
+  letter-spacing: 0;
 }
 
-papertitle {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 700
+.section-heading::before {
+  content: "";
+  width: 4px;
+  height: 27px;
+  border-radius: 999px;
+  background: #1772d0;
+  box-shadow: 0 0 0 5px rgba(23, 114, 208, 0.08);
 }
 
-authorname {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+.section-heading::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #c9d8e8, rgba(201, 216, 232, 0));
+}
+
+.paper-title {
+  font-family: var(--site-font);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #10242f;
+  transition: color 0.18s ease;
+}
+
+a:hover .paper-title {
+  color: #0b4f9c;
+}
+
+.author-name {
+  font-family: var(--site-font);
+  font-size: 15.8px;
   color: #00418A;
 }
-authorname:focus,
-authorname:hover {
-  color: #f09228;
+.author-name:focus,
+.author-name:hover {
+  color: #0b4f9c;
   text-decoration: none;
 }
-authorname-nolink {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+.author-name-no-link {
+  font-family: var(--site-font);
+  font-size: 15.8px;
   color: #00418A;
 }
 
 
-name {
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+.name {
+  display: block;
+  font-family: var(--site-font);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.04;
+  color: #111c24;
+  margin: 0 0 24px;
 }
 
 pre {
@@ -237,8 +321,8 @@ button {
   border: none;
   padding: 0;
   /*optional*/
-  font-family: 'Candara', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: var(--site-font);
+  font-size: 16.5px;
   /*input has OS specific font-family*/
   color:#1772d0;
   text-decoration: none;
@@ -246,7 +330,7 @@ button {
 }
 
 button:hover{
-  color: #f09228;
+  color: #0b4f9c;
   text-decoration: none;
 }
 
